@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+
+}
+
+.header{
+  background-image: url('tgr.png');
+  background-size: 100% auto;;
+  background-position: center;
+  width: 100%;
+  overflow: hidden; 
+}
+ 
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  height: 110px;
+  position: relative;
+}
+
+.logo img {
+  width: 200px;
+  margin-top: 0; 
+  max-height: 90px;
+  object-fit: contain;
+}
+
+.nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 25ppx;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.hero {
+  margin-top: 30px;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  max-width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  word-break: break-word;
+  font-size: 4.8em;
+  margin: 0;
+  font-family: "Noto Serif Georgian", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #f17f38;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 1.8em;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  margin-bottom: 80px;
+}
+.engagement {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 15%;
+  gap: 10px;
+}
+
+.engagement-image {
+  flex: 1;
+  max-width: 520px;
+}
+
+.engagement-image img {
+  width: 100%;
+  height: auto;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.engagement-text {
+  flex: 1.2;
+  max-width: 650px;
+}
+
+.engagement-text h2 {
+  font-size: 4.8em;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.engagement-text p {
+  font-size: 1.4em;
+  font-style: italic;
+  color: #333;
+  line-height: 1.8;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 18px;
+}
+
+.engagement-text em {
+  font-style: italic;
+}
+.services {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.services h2 {
+  font-size: 4.8em;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  margin-bottom: 70px;
+  color: #000;
+}
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.card {
+  background-color: #d9d9d9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card i {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  display: block;
+  color: #333;
+}
+.card p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+  
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer h3 {
+  color: #ef6c23;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  color: #333;
+}
+.footer a {
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.footer-icon {
+  background-color: #ef6c23;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-icon:hover {
+  background-color: #d75b1b;
+}
+
+.footer-map {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.footer-map a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-map a:hover {
+  color: #ef6c23;
+}
+
+
+.footer-column p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
