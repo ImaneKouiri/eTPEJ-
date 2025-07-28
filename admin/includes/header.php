@@ -77,6 +77,7 @@ header {
           <li><a href="/admin//admin_planning.php">Planning</a></li>
           <li><a href="/admin//admin_documents.php">Documents</a></li>
           <li><a href="/admin//admin_annonces.php">Annonces</a></li>
+          <li><a href="/public/index.html">Portail</a></li>          
           <li><a href="/admin//logout.php">Déconnexion</a></li>
         </ul>
       </nav>
